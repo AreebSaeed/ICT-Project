@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car House - Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+            color: #ffffff;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #d4af37;
+            color: #000000;
+        }
+
+        .container {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .container h1 {
+            font-size: 48px;
+            color: #d4af37;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .divider {
+            height: 3px;
+            width: 100px;
+            margin: 0 auto 30px;
+            background-color: #d4af37;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            font-size: 20px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+
+        .contact-info div {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 5px solid #d4af37;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-info div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.5);
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #d4af37;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000000;
+            color: #999999;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container h1 {
+                font-size: 36px;
+            }
+
+            .contact-info div {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .container h1 {
+                font-size: 28px;
+            }
+
+            .contact-info div {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/main_home2.html">Home</a></li>
+            <li><a href="../about_us2.html">About Us</a></li>
+            <li><a href="../cars2.html">Cars</a></li>
+            <li><a href="../contact_us2.html">Contact Us</a></li>
+            <li><a href="../feedback2.html">Feedback & Reviews</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="divider"></div>
+        <div class="contact-info">
+            <div>Email: <a href="mailto:support.abc@anymail.com">support.abc@anymail.com</a></div>
+            <div>Phone: <a href="tel:+923001234567">+92 300 1234567</a></div>
+            <div>Address: <a href="https://www.google.com/maps" target="_blank">Car House, Showroom No. 123, Block X, ABC Road, Karachi</a></div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Car House. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+    </footer>
+</body>
+</html>

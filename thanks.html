@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #121212;
+            color: #F7E7CE;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-message {
+            font-size: 30px;
+            font-weight: bold;
+            color: #D4AF37;
+            margin-bottom: 30px;
+        }
+
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #D4AF37;
+            color: #121212;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #F1C27D;
+            transform: scale(1.05);
+        }
+
+        /* Add a fade-in effect */
+        .thank-you-container {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <p class="thank-you-message">Thank You for Choosing Our Service!</p>
+        <p>You will be contacted shortly via Email.</p>
+        <p>We appreciate your trust in us.</p>
+        <a href="/main_home2.html">Back to Home</a>
+    </div>
+
+</body>
+</html>
